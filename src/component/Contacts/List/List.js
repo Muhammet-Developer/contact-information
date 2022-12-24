@@ -10,7 +10,6 @@ function List({contacts}) {
         )
     })
   })
-  console.log(filtered);
   return (
     <div>
       <input type="text" placeholder='filter concat' value={filterText} onChange={(e)=> setFilterText(e.target.value)} />
