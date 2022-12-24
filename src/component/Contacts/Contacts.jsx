@@ -6,7 +6,6 @@ const Contacts = () => {
   const [contacts,setContacts]=useState([]);
 
   useEffect(() => {
-    console.log(contacts)
   }, [contacts])
   
   return (
